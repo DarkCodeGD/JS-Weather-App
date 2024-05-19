@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Weather Icons -->
+    <link
+      rel="stylesheet"
+      href="weather-icons-master/css/weather-icons.min.css"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="weather-container">
+      <div class="search-container">
+        <input type="text" class="search-location-input" />
+        <button class="seach-location-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div>
+        <h1 class="current_temp">31°</h1>
+        <div class="location-container">
+          <h2 class="country_name">Country</h2>
+          <h2 class="current_location">Location</h2>
+        </div>
+      </div>
+
+      <div>
+        <div class="current-weather-icon-container">
+          <i class="wi wi-day-cloudy"></i>
+        </div>
+        <div class="extra-weather-info-container">
+          <p class="feels-like-temp">
+            <i class="wi wi-thermometer"></i> 31°/26° Feels like 39°
+          </p>
+          <p class="current-time"><i class="wi wi-time-4"></i> Sun, 11:02 AM</p>
+          <p class="humidity"><i class="wi wi-humidity"></i> 79%</p>
+          <p class="wind"><i class="wi wi-strong-wind"></i> 3.6 km/h</p>
+        </div>
+      </div>
+
+      <button class="show-forecast-btn">
+        Show Forecast <i class="fa-solid fa-eye"></i>
+      </button>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script src="app.js"></script>
+  </body>
+</html>

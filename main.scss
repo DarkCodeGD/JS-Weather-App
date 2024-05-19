@@ -1,0 +1,25 @@
+//========== Variables ==========//
+// Colors
+$color-primary: #eb24a6;
+$color-secondary: #3b74d5;
+
+$color-dark: #062256;
+$color-light: #fff7fd;
+
+// Fonts
+$font-primary: "Roboto", sans-serif;
+
+// Transitions
+$trans-1: all 0.1s ease-in-out;
+$trans-3: all 0.3s ease-in-out;
+$trans-5: all 0.5s ease-in-out;
+
+// Background Positions
+$img-center: center / cover;
+$img-top: top / cover;
+$img-bottom: bottom / cover;
+$img-right: right / cover;
+$img-left: left / cover;
+
+//========== Imports ==========//
+@import "partials/resets";
