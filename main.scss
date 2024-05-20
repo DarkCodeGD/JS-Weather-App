@@ -1,7 +1,7 @@
 //========== Variables ==========//
 // Colors
-$color-primary: #eb24a6;
-$color-secondary: #3b74d5;
+$color-primary: #373da9;
+$color-secondary: #ffd17c;
 
 $color-dark: #062256;
 $color-light: #fff7fd;
@@ -23,3 +23,4 @@ $img-left: left / cover;
 
 //========== Imports ==========//
 @import "partials/resets";
+@import "partials/app";
